@@ -6,8 +6,8 @@ class Node
 public:
     string name;
     int age;
-    Node *next; // node pointer for next node
-    Node *prev; // node pointer for previous node
+    Node *next;
+    Node *prev;
     Node(string name, int age)
     {
         this->name = name;
@@ -135,12 +135,10 @@ int main()
         getline(cin, name);
         cout << "Enter Family Member " << i << " Age:";
         cin >> age;
-        // appending data name and age in doubly linked list
         append(head, name, age);
     }
-    cout << endl; // For space
-    // Displaying details
-    cout << "Doubly Linked list with my family members as elements is shown below:" << endl;
+    cout << endl;
+    cout << "Doubly Linked list with family members as elements is :" << endl;
     cout << endl;
     display_from_start(head);
 }
