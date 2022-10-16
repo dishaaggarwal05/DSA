@@ -5,8 +5,6 @@
 #include <unordered_map>
 using namespace std;
 
-// CREATING THE FUNCTION SUCH THAT WE ARE NOT PASSING THE SIZE OF THE ARRAY TO THE FUNCTION.
-
 // LINEAR SEARCH
 
 // in linear search we are traversing the array , and not keeping any limitation on the the traversing index(i).
